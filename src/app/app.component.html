@@ -1,0 +1,19 @@
+<hr />
+<table>
+  <tr>
+    <td>Valor A:</td>
+    <td><input type="number" [(ngModel)]="valorA" /></td>
+  </tr>
+  <tr>
+    <td>Valor B:</td>
+    <td><input type="number" [(ngModel)]="valorB" /></td>
+  </tr>
+
+  <td><button (click)="somar()">Somar</button></td>
+  <td><button (click)="subtrair()">Subtrair</button></td>
+  <tr>
+    <td>Resultado:</td>
+
+    <td>{{ resultado }}</td>
+  </tr>
+</table>
